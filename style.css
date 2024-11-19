@@ -695,95 +695,57 @@ span {
     margin-bottom: 235px;
     margin-right: 50px; 
 }
-/* Para telas pequenas (até 768px) */
+
+
+@media (max-width: 1200px) {
+   .temadois {
+display: flex;
+flex-direction: column;
+width: auto;
+   }
+
+   .tres-beneficios {
+    display: flex;
+flex-direction: column;
+   }
+
+   .temaum {
+    display: flex;
+flex-direction: column;
+width: auto;
+   }
+   .pergunta {
+width: auto;
+   }
+
+   .pergunta2 {
+width: auto;
+   }
+   .pergunta3 {
+width: auto;
+   }
+   .pergunta4 {
+    width: auto;
+   }
+   .testemunhas {
+    display: flex;
+    flex-direction: column;
+   }
+   .final {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+   }
+  .rodape {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
 @media (max-width: 768px) {
-    .topo {
-        flex-direction: column; /* Alinhar logo, menu e botões em coluna */
-        text-align: center;
-    }
-
-    .logo img {
-        width: 50px; /* Ajustar o tamanho do logo para telas menores */
-        height: auto;
-    }
-
-    .menu {
-        flex-direction: column; /* Menu em coluna */
-        gap: 15px;
-        margin: 20px 0;
-    }
-
-    .menu span {
-        font-size: 14px;
-    }
-
-    .botoes {
-        flex-direction: column; /* Botoes em coluna */
-        gap: 10px;
-    }
-
-    .temaum {
-        flex-direction: column; /* Texto e imagem em coluna */
-        align-items: center;
-    }
-
-    .textos {
-        width: 100%; /* Texto ocupa toda a largura da tela */
-        padding: 20px;
-    }
-
-    .calma-calabreso {
-        width: 100%; /* Imagem ocupa toda a largura */
-    }
-
-    .lado {
-        flex-direction: column; /* Colocar o botão CTA abaixo do texto */
-        align-items: center;
-    }
-
-    .convencer {
-        padding: 20px 0; /* Ajustar o espaçamento para telas pequenas */
-    }
-
-    .tres-beneficios {
-        flex-direction: column; /* Benefícios empilhados */
-        gap: 20px;
-    }
-
-    .beneficio-um, .beneficio-dois, .beneficio-tres {
-        width: 100%; /* Benefícios ocupam toda a largura */
-    }
-
-    .temadois {
-        flex-direction: column; /* Colocar a imagem e o texto em coluna */
-        gap: 30px;
-    }
-
-    .textinhos {
-        width: 100%; /* O texto ocupa toda a largura */
-        padding: 0 20px;
-    }
-
-    .testemunhos {
-        flex-direction: column; /* Testemunhos empilhados */
-        gap: 20px;
-    }
-
-    .pergunta, .pergunta2, .pergunta3, .pergunta4 {
-        width: 100%; /* Perguntas ocupam toda a largura */
-    }
-
-    .rodape {
-        flex-direction: column; /* Colocar o rodapé em coluna */
-        text-align: center;
-    }
-
-    .colunas {
-        flex-direction: column; /* Colunas de links em coluna */
-    }
-
-    .coluna-um, .coluna-dois, .coluna-tres {
-        width: 100%; /* Colunas de links ocupam toda a largura */
-        margin-bottom: 20px;
+    body {
+        width: auto;
     }
 }
