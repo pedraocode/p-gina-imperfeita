@@ -12,7 +12,7 @@ body {
 
 .tudo {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .topo {
@@ -25,9 +25,9 @@ body {
 
 .logo img {
     width: 63px;
-height: 27px;
-gap: 0px;
-opacity: 0px;
+    height: 27px;
+    gap: 0px;
+    opacity: 0px;
 
 }
 
@@ -83,23 +83,22 @@ opacity: 0px;
 
 .buttcta {
     width: 208px;
-height: 48px;
-padding: 12px 20px 12px 20px;
-gap: 10px;
-opacity: 0px;
-color: white;
-background: #111111;
-border: none;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    gap: 10px;
+    opacity: 0px;
+    color: white;
+    background: #111111;
+    border: none;
 }
 .temaum {
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    padding: 72px 120px;
     max-width: 1200px;
     max-height: 640px;
-    margin: 0 auto;
-    margin-top: 75px;
-   
+    gap: 80px;
 }
 
 .textos {
@@ -125,34 +124,34 @@ border: none;
     display: flex;
     align-items: center;
     width: 445px;
-height: 64px;
-padding: 16px 0px 0px 0px;
-gap: 20px;
-opacity: 0px;
+    height: 64px;
+    padding: 16px 0px 0px 0px;
+    gap: 20px;
+    opacity: 0px;
 
 }
 
 .eucarrego {
     font-family: 'Roboto';
-font-size: 56px;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: -1px;
-text-align: left;
-margin-bottom: 20px;
-text-decoration-skip-ink: none;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-bottom: 20px;
+    text-decoration-skip-ink: none;
 
 }
 
 .noscarrego {
     margin-bottom: 20px;
-font-family: 'Roboto';
-font-size: 18px;
-font-weight: 400;
-line-height: 27px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 
 }
 
@@ -182,25 +181,25 @@ text-decoration-skip-ink: none;
 }
 .porque {
    
-font-family: 'Roboto';
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 
 }
 
 .agatres {
  
-font-family: 'Roboto';
-font-size: 24px;
-font-weight: 700;
-line-height: 33.6px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 
 }
 .beneficio-um {
@@ -212,69 +211,63 @@ text-decoration-skip-ink: none;
 }
 .beneficio-dois {
     width: 314.67px;
-height: 184px;
-gap: 24px;
-opacity: 0px;
+    height: 184px;
+    gap: 24px;
+    opacity: 0px;
 
 }
 .beneficio-tres {
     width: 314.67px;
-height: 184px;
-gap: 24px;
-opacity: 0px;
+    height: 184px;
+    gap: 24px;
+    opacity: 0px;
 
 }
 
 .texto {
     width: 314.67px;
-height: 112px;
-gap: 24px;
-opacity: 0px;
+    height: 112px;
+    gap: 24px;
+    opacity: 0px;
 
 }
 
-
 .convencer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 200px;
     background: #FBFBFB;
-margin-top: 75px;
-padding-top: 50px;
 }
 
 .buttata {
     width: 78px;
-height: 48px;
-padding: 12px 24px 12px 24px;
-gap: 8px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-border: 1px solid #111111;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    gap: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #111111;
 
-font-family: 'Roboto';
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 
 }
 .temadois {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 50px 0;
-    gap: 40px; 
-    
+    padding: 72px 120px;
+    gap: 80px; 
 }
 
 .textinhos {
-    width: 560px;
-height: 536px;
-gap: 24px;
-opacity: 0px;
-
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .dipirono h4 {
@@ -289,13 +282,12 @@ opacity: 0px;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 20px;
-font-family: 'Roboto';
-font-size: 48px;
-font-weight: 700;
-line-height: 57.6px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    
 
 }
 
@@ -335,21 +327,21 @@ ul li {
 }
 .agaonepe {
     width: 560px;
-height: 252px;
-gap: 24px;
-opacity: 0px;
+    height: 252px;
+    gap: 24px;
+    opacity: 0px;
 
 }
 
 .testemunha {
-    width: 378.67px;
-height: 286.89px;
-gap: 323px;
-opacity: 0px;
-
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
-.testemunha img {
-    margin: 10px 0; /* Espaço entre as imagens e outros elementos */
+
+.testemunha-img {
+    display: flex;
+    gap: 4px;
 }
 
 .testemunha h3 {
@@ -368,48 +360,50 @@ opacity: 0px;
   
 }
 .testemunhas {
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 30px;
-margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 0px;
+    gap: 30px;
 }
 
 .txt {
-    width: 560px;
-    height: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 24px;
-    opacity: 0px;
-    text-align: center; 
-    margin: 0 auto;
-    padding-bottom: 20px; 
 }
 
 .txt h1 {
-  
-font-family: 'Roboto';
-font-size: 48px;
-font-weight: 700;
-line-height: 57.6px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-margin-bottom: 25px;
-padding-top: 50px
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+
+    margin-bottom: 25px;
+    padding-top: 50px
+}
+
+.grand img {
+    max-width: 100%;
 }
 
 .testemunho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 120px;
     background-color: white;
 }
 .pergunta {
     display: flex;
     align-items: center;
     width: 768px;
-height: 72px;
-padding: 20px 0px 20px 0px;
-gap: 12px;
-opacity: 0px;
-border-top: rgb(163, 163, 163) 2px solid;
+    height: 72px;
+    padding: 20px 0px 20px 0px;
+    gap: 12px;
+    opacity: 0px;
+    border-top: rgb(163, 163, 163) 2px solid;
 
 }
 
@@ -417,12 +411,12 @@ border-top: rgb(163, 163, 163) 2px solid;
     display: flex;
     align-items: center;
     width: 768px;
-height: 72px;
-padding: 20px 0px 20px 0px;
-gap: 12px;
-opacity: 0px;
+    height: 72px;
+    padding: 20px 0px 20px 0px;
+    gap: 12px;
+    opacity: 0px;
 
-border-bottom: rgb(105, 105, 105) 2px solid;
+    border-bottom: rgb(105, 105, 105) 2px solid;
 }
 
 
@@ -430,24 +424,24 @@ border-bottom: rgb(105, 105, 105) 2px solid;
     display: flex;
     align-items: center;
     width: 768px;
-height: 72px;
-padding: 20px 0px 20px 0px;
-gap: 12px;
-opacity: 0px;
-border-top: rgb(135, 135, 135) 2px solid;
-border-bottom: rgb(105, 105, 105) 2px solid;
+    height: 72px;
+    padding: 20px 0px 20px 0px;
+    gap: 12px;
+    opacity: 0px;
+    border-top: rgb(135, 135, 135) 2px solid;
+    border-bottom: rgb(105, 105, 105) 2px solid;
 }
 
 .pergunta4 {
     display: flex;
     align-items: center;
     width: 768px;
-height: 72px;
-padding: 20px 0px 20px 0px;
-gap: 12px;
-opacity: 0px;
+    height: 72px;
+    padding: 20px 0px 20px 0px;
+    gap: 12px;
+    opacity: 0px;
 
-border-bottom: rgb(105, 105, 105) 2px solid;
+    border-bottom: rgb(105, 105, 105) 2px solid;
 }
 
 .pergunta img,
@@ -460,21 +454,19 @@ border-bottom: rgb(105, 105, 105) 2px solid;
 .exe {
   
     width: 768px;
-height: 163px;
-gap: 24px;
-opacity: 0px;
+    height: 163px;
+    gap: 24px;
+    opacity: 0px;
 
 }
 
 .exe h1 {
-    
-font-family: 'Roboto';
-font-size: 48px;
-font-weight: 700;
-line-height: 57.6px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+        
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+
 
 }
 
@@ -482,8 +474,8 @@ text-decoration-skip-ink: none;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 72px 120px;
     text-align: center;
-    margin-top: 50px;
 }
 
 .exe {
@@ -501,18 +493,18 @@ text-decoration-skip-ink: none;
     font-size: 48px;
     font-weight: 700;
     line-height: 57.6px;
-    text-align: center;
+
     margin-bottom: 25px;
 }
 .exe p {
 
-font-family: 'Roboto';
-font-size: 18px;
-font-weight: 400;
-line-height: 27px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 
 }
 
@@ -520,56 +512,55 @@ text-decoration-skip-ink: none;
 
 
     width: 234px;
-height: 48px;
-padding: 12px 24px 12px 24px;
-gap: 8px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-background-color: #000000;
-border: none;
-color: white;
-font-family: 'Roboto';
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    gap: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #000000;
+    border: none;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 
-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
 
 }
 
 .clica {
     
     width: 1,440px;
-height: 421px;
-padding: 112px 64px 112px 64px;
-gap: 80px;
-opacity: 0px;
-background: #7B7B7B;
-margin-top: 75px;
+    height: 421px;
+    padding: 112px 64px 112px 64px;
+    gap: 80px;
+    opacity: 0px;
+    background: #7B7B7B;
+    margin-top: 75px;
 }
 
 .gov h1 {
     color: white;
-font-family: 'Roboto';
-font-size: 48px;
-font-weight: 700;
-line-height: 57.6px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-margin-bottom: 25px;
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+
+
+    margin-bottom: 25px;
 }
 
 .gov p {
     color: #FFFFFF;
-font-family: 'Roboto';
-font-size: 18px;
-font-weight: 400;
-line-height: 27px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-margin-bottom: 35px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 35px;
 }
 
 .clique {
@@ -579,41 +570,41 @@ margin-bottom: 35px;
 }
 .butescrever {
     width: 128px;
-height: 48px;
-padding: 12px 24px 12px 24px;
-gap: 8px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-border: 1px solid #111111;
-font-family: 'Roboto';
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-background-color: white;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    gap: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #111111;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: white;
 }
 
 input {
     width: 356px;
-height: 48px;
-border: 1px solid #111111;
-gap: 8px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
+    height: 48px;
+    border: 1px solid #111111;
+    gap: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
 
 }
 
 ::placeholder {
- 
-font-family: 'Roboto';
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+    
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 
 }
 
@@ -644,29 +635,44 @@ span {
 .colunas {
     display: flex;
     align-items: center;
- 
-    gap: 75px;
+    gap: 24px;
+}
+
+.coluna-um, .coluna-dois, .coluna-tres {
+    width: 113px;
 }
 
 .coluna-um p, .coluna-dois p, .coluna-tres p {
     margin-bottom: 25px;
 }
 .coluna-um h3, .coluna-dois h3, .coluna-tres h3 {
+    display: flex;
     margin-bottom: 25px;
 }
 .fin {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 80px 120px;
 }
 .final {
     margin-top: 100px;
     max-width: 1300px;
 
 }
+
 .oa {
     display: flex;
     align-items: center;
+}
+
+.COLUNAS, .COLUNAS img {
+    display: flex;
+    align-items: flex-start;
+}
+
+.COLUNAS {
+    gap: 50px;
 }
 
 .sub {
@@ -685,44 +691,41 @@ span {
     display: flex;
     flex-direction: end;
     margin-bottom: 110px;
-    margin-left: 100px;
+    margin-left: 64px;
     max-width: 1300px;
 
 }
 
 
-.oa img {
-    margin-bottom: 235px;
-    margin-right: 50px; 
-}
 
 
 @media (max-width: 1200px) {
    .temadois {
-display: flex;
-flex-direction: column;
-width: auto;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-left: 0;
    }
 
    .tres-beneficios {
     display: flex;
-flex-direction: column;
+    flex-direction: column;
    }
 
    .temaum {
     display: flex;
-flex-direction: column;
-width: auto;
+    flex-direction: column;
+    width: auto;
    }
    .pergunta {
-width: auto;
+    width: auto;
    }
 
    .pergunta2 {
-width: auto;
+    width: auto;
    }
    .pergunta3 {
-width: auto;
+    width: auto;
    }
    .pergunta4 {
     width: auto;
@@ -735,6 +738,8 @@ width: auto;
     width: auto;
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
    }
   .rodape {
     width: auto;
@@ -742,10 +747,65 @@ width: auto;
     flex-direction: column;
   }
 
+  .textos {
+    text-align: left;
+    margin-left: 100px;
+    width: auto;
+  }
+
+  .textinhos {
+    text-align: left;
+   margin-left: -100px;
+   width: auto;
+  }
+
+  .textos p {
+    text-align: left;
+ 
+  }
+
+  .textinhos p {
+    text-align: left;
+
+ 
+  }
+
+ .clica {
+    padding-bottom: 350px;
+ }
+}
+
+@media (max-width:1177px) {
+    .oa {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .COLUNAS {
+        display: flex;
+        justify-content: center;
+    }
+
+    .oa img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s {
+        margin-top: 64px;
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 768px) {
     body {
+        width: auto;
+    }
+
+    .final {
+        display: flex;
+        flex-direction: column;
         width: auto;
     }
 }
