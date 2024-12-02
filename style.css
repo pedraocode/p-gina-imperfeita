@@ -665,7 +665,11 @@ span {
     margin-left: 64px;
     max-width: 1300px;
 }
-
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media (max-width: 1200px) {
     .temadois {
         display: flex;
@@ -754,6 +758,17 @@ span {
     .eucarrego, .noscarrego, .porque, .agaonepe h1, .agaonepe p, .txt h1, .exe h1, .gov h1, .gov p {
         text-align: left; /* Alinha texto à esquerda */
     }
+
+    .botoes {
+        margin-left: 20px;
+    }
+    .convencer {
+        margin-top: 400px;
+    }
+
+    .calma-calabreso {
+        gap: 200px;
+    }
 }
 
 @media (max-width: 1177px) {
@@ -824,5 +839,75 @@ span {
 
     .gov p {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .tudo {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .topo, .temaum, .convencer, .temadois, .testemunho, .frequentes, .clica, .fin {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .textos, .textinhos, .testemunha, .exe, .gov, .clique, .final, .rodape {
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .eucarrego, .noscarrego, .porque, .agaonepe h1, .agaonepe p, .txt h1, .exe h1, .gov h1, .gov p {
+        font-size: 1.5rem;
+    }
+
+    .textinhos h1, .textinhos p, .testemunha h3, .testemunha h4, .testemunha p, .exe p, .pergunta, .pergunta2, .pergunta3, .pergunta4 {
+        font-size: 1rem;
+    }
+
+    .buttata, .btta, .butescrever, input {
+        font-size: 0.875rem;
+    }
+
+    .menu span, .servicos img, .buttin, .buttistrar, .buttcta, .buttata, .btta, .butescrever, input {
+        font-size: 0.75rem;
+    }
+
+    .logo img, .calma-calabreso img, .grand img, .testemunha-img img, .redes img {
+        width: 100%;
+        height: auto;
+    }
+
+    .colunas, .coluna-um, .coluna-dois, .coluna-tres, .coluna-um p, .coluna-dois p, .coluna-tres p, .coluna-um h3, .coluna-dois h3, .coluna-tres h3 {
+        width: auto;
+    }
+
+    .COLUNAS, .COLUNAS img {
+        justify-content: flex-start;
+    }
+
+    .s {
+        margin-left: 10px;
+    }
+    .convencer {
+        margin-top: 200px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 567px) {
+    .su input {
+        width: 100%;
+    }
+
+    .COLUNAS {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
